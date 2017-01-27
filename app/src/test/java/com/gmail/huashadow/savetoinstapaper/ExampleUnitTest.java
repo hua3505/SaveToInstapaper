@@ -1,4 +1,4 @@
-package com.gmail.huashadow.sharetoinstapaper;
+package com.gmail.huashadow.savetoinstapaper;
 
 import org.junit.Test;
 

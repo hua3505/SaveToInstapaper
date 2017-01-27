@@ -4,7 +4,7 @@ android {
     compileSdkVersion 24
     buildToolsVersion "24.0.3"
     defaultConfig {
-        applicationId "com.gmail.huashadow.sharetoinstapaper"
+        applicationId "com.gmail.huashadow.savetoinstapaper"
         minSdkVersion 18
         targetSdkVersion 21
         versionCode 1
