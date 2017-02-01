@@ -11,12 +11,12 @@
         <activity
             android:name="com.gmail.huashadow.savetoinstapaper.ShareActivity"
             android:theme="@android:style/Theme.Translucent.NoTitleBar"
+            android:icon="@mipmap/instapaper"
             android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.VIEW" />
 
                 <category android:name="android.intent.category.DEFAULT" />
-                <category android:name="android.intent.category.APP_BROWSER" />
                 <category android:name="android.intent.category.BROWSABLE" />
 
                 <data android:scheme="http" />
