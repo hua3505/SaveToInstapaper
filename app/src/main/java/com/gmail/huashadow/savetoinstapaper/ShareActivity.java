@@ -4,6 +4,7 @@ import android.app.Activity;
 import android.content.Intent;
 import android.os.Bundle;
 import android.util.Log;
+import android.widget.Toast;
 
 public class ShareActivity extends Activity {
 
@@ -32,7 +33,11 @@ public class ShareActivity extends Activity {
             saveToInstapaperIntent.setPackage("com.instapaper.android");
             saveToInstapaperIntent.setType("text/plain");
             saveToInstapaperIntent.putExtra(Intent.EXTRA_TEXT, intent.getData().toString());
-            startActivity(saveToInstapaperIntent);
+            if (intent.resolveActivity(getPackageManager()) != null) {
+                startActivity(saveToInstapaperIntent);
+            } else {
+                Toast.makeText(this, R.string.no_instapaper_toast, Toast.LENGTH_SHORT).show();
+            }
         }
         finish();
     }

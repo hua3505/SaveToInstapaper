@@ -1,3 +1,4 @@
 <resources>
     <string name="app_name">SaveToInstapaper</string>
+    <string name="no_instapaper_toast">Please install Instapaper first.</string>
 </resources>
