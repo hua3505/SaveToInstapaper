@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">保存到Instapaper</string>
+    <string name="no_instapaper_toast">请先安装Instapaper</string>
+</resources>
