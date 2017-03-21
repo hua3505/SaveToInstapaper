@@ -33,7 +33,7 @@ public class ShareActivity extends Activity {
             saveToInstapaperIntent.setPackage("com.instapaper.android");
             saveToInstapaperIntent.setType("text/plain");
             saveToInstapaperIntent.putExtra(Intent.EXTRA_TEXT, intent.getData().toString());
-            if (intent.resolveActivity(getPackageManager()) != null) {
+            if (saveToInstapaperIntent.resolveActivity(getPackageManager()) != null) {
                 startActivity(saveToInstapaperIntent);
             } else {
                 Toast.makeText(this, R.string.no_instapaper_toast, Toast.LENGTH_SHORT).show();
