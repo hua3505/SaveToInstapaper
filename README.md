@@ -1,5 +1,5 @@
 # SaveToInstapaper
-A tool to save to Instapaper
+A tool to save to Instapaper。详细可看我在简书上的文章[如何保存微信文章到Instapaper](http://www.jianshu.com/p/2e1ca68b2913)
 
 应用已发布到应用宝上。通过微信扫描二维码就可以下载。
 
